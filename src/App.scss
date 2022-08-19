@@ -1,0 +1,13 @@
+.App {
+
+    &__navbar{
+        width: 100%;
+        max-width: 1080px;
+        margin: auto;
+    }
+
+    &__container{
+        max-width: 1080px;
+        margin: auto;
+    }
+}
