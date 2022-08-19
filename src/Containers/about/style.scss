@@ -1,4 +1,6 @@
 .about {
+    
+    overflow-x: hidden;
     &__contact {
         display: flex;
         gap: 20px;
@@ -85,6 +87,7 @@
                     position: absolute;
                     bottom: -10%;
                     left: 41.5%;
+                    size: 10px;
                 }
                 div:nth-child(4){
                     position: absolute;
@@ -111,8 +114,9 @@
             margin-bottom: 20px;
 
         &__inner{
-            width: 280px;
-            height: 280px;
+            width: 250px;
+            height: 250px;
+            padding: 20px;
         }
         }
     }

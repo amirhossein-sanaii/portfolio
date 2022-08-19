@@ -33,6 +33,7 @@
     align-items: center;
     justify-content: center;
     z-index: 1;
+    text-align: center;
 
     &__home__div{
         padding-top: 15px;
@@ -47,14 +48,23 @@
         border: 1px solid var(--selected-theme-main-color);
         margin-left: 10px;
         text-decoration: none;
+        margin-bottom: 10px;
     }
 
     &__home__button:hover{
         transition: 0.5s;
         background-color: var(--selected-theme-main-color);
         color: black;
+        a{
+            color: black;
+        }
 
     }
+    a{
+        color: var(--selected-theme-main-color);
+        text-decoration: none;
+    }
+
 }
 
 .icons{
@@ -75,6 +85,8 @@
         }
     }
 }
+
+
 
 @media only screen and (max-width : 550px) {
     .home__text-wrapper h1{
